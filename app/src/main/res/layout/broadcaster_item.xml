@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/broadcasterImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher_background"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/broadcasterName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Broadcaster Name"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#5bcffa"/>
+
+
+        <TextView
+            android:id="@+id/broadcasterRoom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Room ID: 5208231"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <Switch
+            android:id="@+id/subscribeSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="启用订阅"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/removeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:backgroundTint="#696969"
+        android:text="Remove" />
+</LinearLayout>

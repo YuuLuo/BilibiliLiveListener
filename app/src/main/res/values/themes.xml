@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.BilibiliLiveListener" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/pink</item>
+        <item name="colorPrimaryDark">@color/pink</item> <!-- 状态栏颜色 -->
+        <item name="android:statusBarColor">@color/pink</item> <!-- 确保状态栏颜色 -->
+        <item name="android:windowLightStatusBar">true</item> <!-- 浅色状态栏模式 -->
+    </style>
+</resources>
