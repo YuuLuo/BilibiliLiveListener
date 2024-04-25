@@ -17,6 +17,11 @@
 注意：建议开启“启用后台常驻”，并在设置中关闭该应用的电池优化以防止后台被冻结。
 如果开启“启用后台常驻”后任务栏没有通知，可以尝试关闭后再开启。
 
+## 使用图示
+
+![Screenshot_Home](https://github.com/YuuLuo/BilibiliLiveListener/assets/69673808/2bdb1836-6e8c-4608-9e11-c7e8b3a40003)
+![Screenshot_Notification](https://github.com/YuuLuo/BilibiliLiveListener/assets/69673808/0cdc0c0d-9580-4723-91d6-fc983ff05af2)
+
 ## 技术栈
 
 - Kotlin
